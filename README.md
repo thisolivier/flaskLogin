@@ -1,7 +1,7 @@
-#flaskLogin
+# flaskLogin
 Tiny project building a basic login
 
-#How to run
+# How to run
 * Open your terminal,
 * Optionally, activate a virtual environment,
 * Ensure you have Python 3 running: 
