@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="/static/styles/login.css" type="text/css">
+{% block body %}
+{% if session['logged_in'] %}
+
+You're logged in already
+
+{% else %}
+<div class="login">
+  <h1>Login Here</h1>
+  <p>Dev credentials are admin, test</p>
+  <p>Logout by going to /logout</p>
+  <form action="/login" method="POST" class="login-form">
+    <input type="username" name="username" placeholder="Username">
+    <input type="password" name="password" placeholder="Password">
+    <input type="submit" value="Log In" class="button">
+  </form>
+</div>
+
+{% endif %}
+{% endblock %}

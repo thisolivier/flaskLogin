@@ -1,0 +1,11 @@
+# Python virtual env
+/virtualEnv
+/virtualEnv/*
+
+# IDE Visual Code Studio junk
+/.vscode
+/.vscode/*
+
+# OS level things
+.DS_Store
+*/.DS_Store
